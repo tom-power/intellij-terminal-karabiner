@@ -30,11 +30,11 @@ ctrl a -> Move caret to start line start
 ctrl a + shift -> Move caret to line start with selection
 ctrl e -> Move caret to line end
 ctrl e + shift -> Move caret to end start with selection
-ctrl c -> copy
 ctrl k -> commit (and remove current)
 ```
 
 ### Notes
 
 - option left/right, cmd l are working for me is so not included, please add if needed
-- cmd u/l/k/c to ctrl u/l/k/c aren't covered in the ticket but are handy
+- cmd u/l/k to ctrl u/l/k
+   aren't covered in the ticket but are handy
