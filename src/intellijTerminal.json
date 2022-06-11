@@ -20,7 +20,7 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_if",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$"]
+          "bundle_identifiers": ["^com\\.jetbrains\\..*$"]
         }]
       }]
     },
@@ -43,7 +43,7 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_if",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$"]
+          "bundle_identifiers": ["^com\\.jetbrains\\..*$"]
         }]
       }]
     },
@@ -65,7 +65,7 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_if",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$"]
+          "bundle_identifiers": ["^com\\.jetbrains\\..*$"]
         }]
       }]
     },
@@ -87,7 +87,7 @@
         "type": "basic",
         "conditions": [{
           "type": "frontmost_application_if",
-          "bundle_identifiers": ["^com\\.jetbrains\\.intellij$"]
+          "bundle_identifiers": ["^com\\.jetbrains\\..*$"]
         }]
       }]
     }
