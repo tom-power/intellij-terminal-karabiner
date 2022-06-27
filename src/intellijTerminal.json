@@ -25,7 +25,7 @@
       }]
     },
     {
-      "description": "Home intellij (left_command+e to left_control+e)",
+      "description": "End intellij (left_command+e to left_control+e)",
       "manipulators": [{
         "from": {
           "key_code": "right_arrow",
