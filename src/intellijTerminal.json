@@ -68,28 +68,6 @@
           "bundle_identifiers": ["^com\\.jetbrains\\..*$"]
         }]
       }]
-    },
-    {
-      "description": "Control k intellij (left_command+k to right_control+k)",
-      "manipulators": [{
-        "from": {
-          "key_code": "k",
-          "modifiers": {
-            "mandatory": ["left_command"]
-          }
-        },
-        "to": [{
-          "key_code": "k",
-          "modifiers": [
-            "left_control"
-          ]
-        }],
-        "type": "basic",
-        "conditions": [{
-          "type": "frontmost_application_if",
-          "bundle_identifiers": ["^com\\.jetbrains\\..*$"]
-        }]
-      }]
     }
   ]
 }
